@@ -4,6 +4,7 @@
   --color-green: #06c167;
   --color-grey: rgb(238, 238, 238);
   --color-greyDarker: rgb(84, 84, 84);
+  --color-orange: #f59c29;
 }
 
 * {
@@ -56,7 +57,7 @@ header .header-option :hover {
   color: var(--color-green);
 }
 header svg {
-  margin-right: 1rem;
+  margin-right: 0.7rem;
   display: inline-flex;
 }
 header .currentDetails,
@@ -201,9 +202,10 @@ header .searchBar {
 .listings .listings-grid .listings-grid-element .text .rating span {
   height: 40px;
   width: 40px;
-  background: var(--color-grey);
+  background: var(--color-orange);
   font-size: 1rem;
   color: black;
+  cursor: pointer;
 }
 
 .tooltip {
