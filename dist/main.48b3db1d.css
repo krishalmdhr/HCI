@@ -5,6 +5,7 @@
   --color-grey: rgb(238, 238, 238);
   --color-greyDarker: rgb(84, 84, 84);
   --color-orange: #f59c29;
+  --color-blue: #3490dc;
 }
 
 * {
@@ -175,7 +176,7 @@ header .searchBar {
   object-fit: cover;
 }
 .listings .listings-grid .listings-grid-element .text-lower {
-  padding: 0.6rem 0;
+  padding: 0.3rem 0;
 }
 .listings .listings-grid .listings-grid-element .text-lower span {
   color: var(--color-greyDarker);
@@ -191,9 +192,35 @@ header .searchBar {
   margin-bottom: 0.3rem;
   margin-top: 0;
 }
+.listings .listings-grid .listings-grid-element .text .link {
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  margin: auto 0 auto auto;
+  margin-top: 0px;
+  padding: 3px 6px;
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  background: var(--color-green);
+  border-radius: 10px;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.listings .listings-grid .listings-grid-element .text .link:hover {
+  opacity: 1;
+}
 .listings .listings-grid .listings-grid-element .text span {
   font-size: 0.8rem;
   font-weight: 300;
+}
+.listings .listings-grid .listings-grid-element .text span .discount {
+  color: white;
+  background: red;
+  font-size: 1rem;
+  padding: 1.3px;
+  border-radius: 3.5px;
 }
 .listings .listings-grid .listings-grid-element .text .rating {
   margin: auto 0 auto auto;
